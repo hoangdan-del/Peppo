@@ -1,0 +1,42 @@
+# ----------------------------------------------------------------------
+# 1. Cấu hình & Files hệ thống
+# ----------------------------------------------------------------------
+.DS_Store             
+.vscode/              
+.vs/                
+
+# ----------------------------------------------------------------------
+# 2. Files Bỏ qua Chung (.NET và Node)
+# ----------------------------------------------------------------------
+*.log
+*.lock
+**/node_modules/      
+**/npm-debug.log*
+
+# ----------------------------------------------------------------------
+# 3. Backend (.NET Core)
+# ----------------------------------------------------------------------
+/backend/bin/        
+/backend/obj/         
+/backend/Properties/launchSettings.json   
+
+# Bỏ qua các file và thư mục tự động sinh ra khi publish
+/backend/**/publish/
+/backend/**/tmp/
+/backend/**/*.user
+/backend/*.orig
+
+# Bỏ qua chứng chỉ phát triển SSL cục bộ
+/backend/*.pfx
+
+# ----------------------------------------------------------------------
+# 4. Frontend (React/Vite)
+# ----------------------------------------------------------------------
+/frontend/dist/       
+/frontend/out/
+/frontend/temp/
+
+# Bỏ qua Biến môi trường nhạy cảm nếu có
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/.env
