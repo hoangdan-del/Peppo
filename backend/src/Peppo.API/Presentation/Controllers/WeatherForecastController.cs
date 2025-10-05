@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Peppo.API.Controllers
+namespace Peppo.API.Presentation.Controllers
 {
     [ApiController]
     [Route("[controller]")]
