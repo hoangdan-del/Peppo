@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Peppo.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d90313607d650b21fc7b1cb6e8f8981c959b83eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Peppo.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Peppo.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
