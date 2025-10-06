@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* -- define line-height and color variables for breakpoints moblie -- */
+@media (max-widths: 540px) {
+  :root {
+    --line-height: 0.8;
+  }
+}

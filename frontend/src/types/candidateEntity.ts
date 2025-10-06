@@ -1,0 +1,1 @@
+// dịnh nghia type cho candidate entity
